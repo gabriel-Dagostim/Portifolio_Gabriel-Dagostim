@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body{
+    
+    border: 1px solid #25f700;
+    vertical-align: baseline;
+}
+
+.head_tt{
+
+    background-color: #0c0b19;
+    border-bottom: 2px solid #25f700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+
+
+    
+
+    
+    
+
+}
+
+
+
+.menu_d{font-family: 'Bruno Ace SC', cursive; color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+
+}
+
+
+.portifolio_n{font-family: 'Bruno Ace SC', cursive; color: white;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+
+}
+
+.checkbox_p{font-family: 'Bruno Ace SC', cursive; color: white;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    
+}
+
+.section_one{
+    
+    background-color: #0c0b19;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+
+
+
+}
+
+
+.toggle-switch {
+    position: relative;
+    width: 40px;
+    height: 10px;
+    --light: #25f700;
+    --dark: #28292c;
+    --link: rgb(27, 129, 112);
+    --link-hover: rgb(24, 94, 82);
+
+  }
+  
+  .switch-label {
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    background-color: var(--dark);
+    border-radius: 25px;
+    cursor: pointer;
+    border: 3px solid var(--dark);
+  }
+  
+  .checkbox {
+    position: absolute;
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .checkbox:checked ~ .slider {
+    background-color: var(--light);
+  }
+  
+  .slider::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    -webkit-box-shadow: inset 12px -4px 0px 0px var(--light);
+    box-shadow: inset 12px -4px 0px 0px var(--light);
+    background-color: var(--dark);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .checkbox:checked ~ .slider::before {
+    -webkit-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    transform: translateX(25px);
+    background-color: var(--dark);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    margin-top:50px;
+    margin-right: 130px;
+    margin-left: 30px;
+    
+
+
+
+    width: 200px;
+    height: 300px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    border-radius: 20px;
+
+
+    
+   
+   }
+   
+   .card2 {
+    
+    width:200px;
+    height: 300px;
+    background-color: #1a1a1a;
+    transition: all .2s;
+    border-radius: 18px;
+
+    background-image: url(../img/IMG_0638-removebg-preview__1_-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    
+    font-family: 'Bruno Ace SC', cursive;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+
+
+
+    
+    
+   }
+   
+   .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+    
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+    
+   }
+
+   .imge{
+
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    
+    font-family: 'Bruno Ace SC', cursive;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+
+    justify-content: space-between;
+}
+
+
+.sobre_mim-c{
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    
+    font-family: 'Bruno Ace SC', cursive;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    margin-top:50px;
+    margin-right: 30px;
+    margin-left: 50px;
+
+    text-align: center;
+    
+    
+   
+}
+
+.sobre-mim_0{
+    font-size: 28px;
+    margin-left: 35px;
+    color: #25f700;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    
+    font-family: 'Bruno Ace SC', cursive;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    margin-top:50px;
+    margin-right: 30px;
+    
+    
+
+}
+
+.sobre-mim_1{
+    font-size: 30px;
+    color: #25f700;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    
+    font-family: 'Bruno Ace SC', cursive;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    
+    
+    
+}
+
+.sobre-mim_2{
+    
+    font-size: 15px;
+    color: #28292c;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    
+    font-family: 'Bruno Ace SC', cursive;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+   
+    
+    
+}
