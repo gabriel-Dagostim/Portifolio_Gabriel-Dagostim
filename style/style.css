@@ -47,6 +47,10 @@ body{
     vertical-align: baseline;
 
 }
+.menu{
+  background-color: transparent;
+  border: 0px solid transparent;
+}
 
 
 .portifolio_n{font-family: 'Bruno Ace SC', cursive; color: white;
@@ -56,6 +60,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     vertical-align: baseline;
+    font-size: 30px;
 
 }
 
@@ -98,8 +103,8 @@ body{
   
   .switch-label {
     position: absolute;
-    width: 100%;
-    height: 15px;
+    width: 120%;
+    height: 22px;
     background-color: var(--dark);
     border-radius: 25px;
     cursor: pointer;
@@ -128,12 +133,13 @@ body{
     content: "";
     position: absolute;
     top: 2px;
-    left: 0px;
-    width: 12px;
-    height: 12px;
-    border-radius: 100%;
-    -webkit-box-shadow: inset 12px -4px 0px 0px var(--light);
-    box-shadow: inset 12px -4px 0px 0px var(--light);
+    left: 2px;
+    right: 2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 120%;
+    -webkit-box-shadow: inset 12px -7px 0px 0px var(--light);
+    box-shadow: inset 7px -4px 0px 0px var(--light);
     background-color: var(--dark);
     -webkit-transition: 0.3s;
     transition: 0.3s;
@@ -237,24 +243,28 @@ body{
     margin-left: auto;
     margin-right: auto;
     vertical-align: baseline;
+    justify-content: space-between;
     
     font-family: 'Bruno Ace SC', cursive;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: baseline;
+  
+   
+    
+    
     margin-top:50px;
-    margin-right: 30px;
-    margin-left: 50px;
+    
 
     text-align: center;
+   
+    
+    
+    
     
     
    
 }
 
 .sobre-mim_0{
-    font-size: 28px;
+    font-size: 45px;
     margin-left: 35px;
     color: #25f700;
     flex-wrap: wrap;
@@ -275,7 +285,7 @@ body{
 }
 
 .sobre-mim_1{
-    font-size: 30px;
+    font-size: 47px;
     color: #25f700;
     flex-wrap: wrap;
     margin-left: auto;
@@ -294,12 +304,9 @@ body{
 
 .sobre-mim_2{
     
-    font-size: 15px;
+    font-size: 20px;
     color: #28292c;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: baseline;
+    
     
     font-family: 'Bruno Ace SC', cursive;
     flex-wrap: wrap;
@@ -309,4 +316,100 @@ body{
    
     
     
+}
+
+.label-ajuste{
+  margin-top: 70px;
+  
+}
+
+.label-00{
+
+    font-family: 'Bruno Ace SC', cursive;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    font-size: 30px;
+    color: #25f700;
+
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    border: 1px solid red;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    transform: translate(-50%, -10%);
+
+   
+    
+
+    
+}
+
+#minhaDiv{
+  display: none;
+}
+
+.burger {
+  position: relative;
+  width: 40px;
+  height: 30px;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+}
+
+.burger input {
+  display: none;
+}
+
+.burger span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #25f700;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.burger span:nth-of-type(1) {
+  top: 0px;
+  transform-origin: left center;
+}
+
+.burger span:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: left center;
+}
+
+.burger span:nth-of-type(3) {
+  top: 100%;
+  transform-origin: left center;
+  transform: translateY(-100%);
+}
+
+.burger input:checked ~ span:nth-of-type(1) {
+  transform: rotate(45deg);
+  top: 0px;
+  left: 5px;
+}
+
+.burger input:checked ~ span:nth-of-type(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.burger input:checked ~ span:nth-of-type(3) {
+  transform: rotate(-45deg);
+  top: 28px;
+  left: 5px;
 }
