@@ -319,40 +319,35 @@ body{
 }
 
 .label-ajuste{
-  margin-top: 70px;
-  
-}
-
-.label-00{
-
-    font-family: 'Bruno Ace SC', cursive;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: baseline;
-    font-size: 30px;
-    color: #25f700;
-
-    position: absolute;
-    left: 50%;
-    top: 10%;
-    border: 1px solid red;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-
-    transform: translate(-50%, -10%);
-
-   
-    
-
-    
+  margin-top: 70px;  
 }
 
 #minhaDiv{
   display: none;
+
+
+  
+  font-family: 'Bruno Ace SC', cursive;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: baseline;
+  font-size: 30px;
+  color: #25f700;
+
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  border: 1px solid red;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  transform: translate(-50%, -10%);
 }
+
+
 
 .burger {
   position: relative;
@@ -378,6 +373,7 @@ body{
   left: 0;
   transform: rotate(0deg);
   transition: .25s ease-in-out;
+  
 }
 
 .burger span:nth-of-type(1) {
