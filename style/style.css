@@ -39,6 +39,26 @@ body{
 
 
 
+body::-webkit-scrollbar {
+  width: 10px;         
+
+}
+
+body::-webkit-scrollbar-track {
+  background: #0c0b19;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #25f700;
+  border-radius: 20px;    
+  border: 2px solid #0c0b19;     
+
+}
+
+
+
+
+
 .menu_d{font-family: 'Bruno Ace SC', cursive; color: white;
     display: flex;
     flex-wrap: wrap;
@@ -338,7 +358,7 @@ body{
   position: absolute;
   left: 50%;
   top: 10%;
-  border: 1px solid red;
+  
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 5%;
@@ -409,3 +429,5 @@ body{
   top: 28px;
   left: 5px;
 }
+
+

@@ -2,7 +2,16 @@
 
 //#25f700
 
-
-
+function blurIN(){
     
+}
+
+
+
+function blurOUT(){
+ 
+}
+
+
+
 

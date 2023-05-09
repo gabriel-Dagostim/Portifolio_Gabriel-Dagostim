@@ -14,14 +14,15 @@
     <title>Portifólio | Gabriel Dagostim</title>
 
 
-    <div class="head_tt" onclick="Mudarestado('minhaDiv')">
-        <div class="menu_d" onclick="Mudarestado('minhaDiv')">
+    <div class="head_tt">
 
+       
+        <div class="menu_d">
 
-                <button type="button" class="menu"> 
+                <button type="button" class="menu">
                     
                 <label class="burger" for="burger">
-                <input type="checkbox" id="burger">
+                <input type="checkbox" id="burger" onclick="Mudarestadoes('minhaDiv')" >
                 <span></span>
                 <span></span>
                 <span ></span>
@@ -42,13 +43,15 @@
                       </div>  
                  
         </div>
+    
+   
     </div>
 
 
 
 </head>
 <body>
-    <section class="section_one">
+    <section class="section_one" id="sec01">
         <div class="sobre_mim-c">
             <div>
                 <label for="" class="sobre-mim_0">Eae, sou o</label>
@@ -64,7 +67,7 @@
         </div>
 
         <div class="imge">
-            <div><img src="../img/Finajjl.png" alt="">
+            <div><img src="../img/Final.png" alt="">
         </div>
         </div>
 
@@ -112,31 +115,23 @@
     
 </body>
 
+
 <script>
-
-    var display = document.getElementById("minhaDiv").style.display;
-
-
-    function Mudarestadoes(el) {
-        display = document.getElementById(el).style.display;
-                 if(display == "none")
-                        document.getElementById(el).style.display = 'block';
-                    else
-                        document.getElementById(el).style.display = 'none';
-    }
-
-        function Mudarestado(el) {
-            display = document.getElementById(el).style.display;
-                 if(display == "none")
-                        document.getElementById(el).style.display = 'block';
-                    else
-                        document.getElementById(el).style.display = 'none';
-    }
-
-
-
-        
-
-
-</script>
+var display = document.getElementById("minhaDiv").style.display;
+    document.getElementById("minhaDiv").style.display = 'none';
+        function Mudarestadoes(el) {
+                display = document.getElementById("minhaDiv").style.display;
+                     display = document.getElementById(el).style.display;
+                        if(display == "none"){
+                            document.getElementById(el).style.display = 'block'; blurIN()}
+                        else{
+                            document.getElementById(el).style.display = 'none';blurOUT() }
+        }
+    
+    
+    
+            
+    
+    
+    </script>
 </html>
