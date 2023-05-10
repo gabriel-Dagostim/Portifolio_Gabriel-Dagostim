@@ -94,7 +94,7 @@ body::-webkit-scrollbar-thumb {
     
 }
 
-.section_one{
+#section_one{
     
     background-color: #0c0b19;    
     display: flex;
@@ -255,6 +255,9 @@ body::-webkit-scrollbar-thumb {
     vertical-align: baseline;
 
     justify-content: space-between;
+   
+
+    
 }
 
 
@@ -428,6 +431,14 @@ body::-webkit-scrollbar-thumb {
   transform: rotate(-45deg);
   top: 28px;
   left: 5px;
+}
+
+.testandoo{
+  filter: blur(2px);
+}
+
+.teste{
+  filter: blur(0px);
 }
 
 
