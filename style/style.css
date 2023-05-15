@@ -18,6 +18,12 @@
 position: fixed;
 }
 
+html{
+  height: 100%;
+  width: 100%;
+}
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 
@@ -31,7 +37,10 @@ body{
     background-color: #0c0b19;
 
   
+  position: relative;
 
+  height: 100%;
+  width: 100%;
 
 }
 
@@ -224,6 +233,145 @@ vertical-align: baseline;
     justify-content: space-between;   
     display: flex;
 }
+
+@media (max-width: 600px)
+{
+  .img-oo
+   {
+    width: 300px;
+   }
+}
+
+
+@media (max-width: 600px)
+{
+  #box-up-011
+   {
+    width: 300px;
+    height: 200px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #box-up-022
+   {
+    width: 300px;
+    height: 200px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #box-up-033
+   {
+    width: 300px;
+    height: 200px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #box-up-044
+   {
+    width: 300px;
+    height: 200px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #box-up-055
+   {
+    width: 300px;
+    height: 200px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #box-up-066
+   {
+    width: 300px;
+    height: 200px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #box-up-01
+   {
+    width: 100px;
+    height: 100px;
+   }
+}
+@media (max-width: 600px)
+{
+  #box-up-02
+   {
+    width: 100px;
+    height: 100px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #box-up-03
+   {
+    width: 100px;
+    height: 100px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #box-up-04
+   {
+    width: 100px;
+    height: 100px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #box-up-05
+   {
+    width: 100px;
+    height: 100px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #box-up-06
+   {
+    width: 100px;
+    height: 100px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #img-red
+   {
+    width: 40px;
+    height: 40px;
+   }
+}
+
+
+@media (max-width: 600px)
+{
+  #text-red
+   {
+    font-size: 10px;
+   }
+}
+
+
+
+
+
 
 .imge{ 
   display:block;
@@ -601,6 +749,12 @@ line-height: 90px;
         cursor: pointer;}
       #box-up-04:active {
         transform: scale(1);}
+        
+        #box-up-06:hover {
+          transform: scale(1.09);
+          cursor: pointer;}
+        #box-up-06:active {
+          transform: scale(1);}
 
         #box-up-05:hover {
           transform: scale(1.09);
