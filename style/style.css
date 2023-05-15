@@ -13,8 +13,6 @@
 }
 
 .trava{
-
-
 position: fixed;
 }
 
@@ -367,6 +365,299 @@ vertical-align: baseline;
     font-size: 10px;
    }
 }
+
+@media (max-width: 600px)
+{
+  #contato-04
+   {
+    height: 60px;
+    width: 60px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #contato-03
+   {
+    height: 60px;
+    width: 60px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #contato-02
+   {
+    height: 60px;
+    width: 60px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #contato-01
+   {
+    position: relative;
+    height: 60px;
+    width: 60px;
+   }
+}
+
+
+@media (max-width: 600px)
+{
+  #text-red-02
+   {
+    height: 60px;
+    width: 60px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #text-red-02
+   {
+    font-size: 13px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #contato-geral-red
+   {
+   margin-left: 135px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #contato-tx-geral-red
+   {
+   font-size: 30px;
+   margin-bottom: 50px;
+   }
+}
+
+
+@media (max-width: 600px)
+{
+  #text-sobre-02-red
+   {
+   font-size: 15px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #text-sobre-01-red
+   {
+   font-size: 20px;
+   }
+}
+
+
+@media (max-width: 600px)
+{
+  #text-geral-00-red
+   {
+   font-size: 25px;
+   }
+}
+
+
+@media (max-width: 600px)
+{
+  #text-geral-01-red
+   {
+   font-size: 30px;
+   text-align: center;
+   }
+}
+
+
+@media (max-width: 600px)
+{
+  #text-geral-02-red
+   {
+   font-size: 17px;
+   text-align: center;
+   }
+}
+
+@media (max-width: 1500px)
+{
+  #minhaDiv
+   {  
+    margin-top: 10%;
+
+   }
+}
+
+@media (max-width: 1400px)
+{
+  #minhaDiv
+   {  
+    margin-top: 11%;
+  }
+}
+
+@media (max-width: 1300px)
+{
+  #minhaDiv
+   {  
+    margin-top: 12%;
+  
+   }
+}
+
+@media (max-width: 1200px)
+{
+  #minhaDiv
+   {  
+    margin-top: 13%;
+ 
+   }
+}
+
+@media (max-width: 1100px)
+{
+  #minhaDiv
+   {  
+    font-size: 26px;
+    margin-top: 14%;
+   
+   }
+}
+
+@media (max-width: 1000px)
+{
+  #minhaDiv
+   {  
+    margin-top: 15%;
+  
+   }
+}
+
+@media (max-width: 900px)
+{
+  #minhaDiv
+   {  
+    margin-top: 16%;
+   
+   }
+}
+
+@media (max-width: 800px)
+{
+  #minhaDiv
+   {  
+    margin-top: 20%;
+ 
+   }
+}
+
+@media (max-width: 700px)
+{
+  #minhaDiv
+   {  
+    margin-top: 23%;
+   font-size: 20px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  #minhaDiv
+   {  
+    margin-top: 26%;
+   font-size: 20px;
+   }
+}
+
+@media (max-width: 500px)
+{
+  #minhaDiv
+   {  
+    margin-top: 29%;
+   font-size: 20px;
+   }
+}
+
+@media (max-width: 400px)
+{
+  #minhaDiv
+   {  
+    margin-top: 35%;
+   font-size: 20px;
+   }
+}
+
+@media (max-width: 350px)
+{
+  #minhaDiv
+   {  
+    margin-top: 42%;
+   font-size: 15px;
+   }
+}
+
+@media (max-width: 250px)
+{
+  #minhaDiv
+   {  
+    margin-top: 52%;
+   font-size: 15px;
+   }
+}
+
+@media (max-width: 200px)
+{
+  #minhaDiv
+   {  
+    margin-top: 58%;
+   font-size: 12px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 360px)
+{
+  #bt-00-red
+   {
+    height: 30px;
+   width: 150px;
+   border-radius: 5rem;
+   font-size: 11px;
+   margin: 10px;
+   }
+}
+
+
+@media (min-width: 360px)
+{
+  #bt-00-red
+   {
+    height: 30px;
+   width: 150px;
+   border-radius: 5rem;
+   font-size: 11px;
+   margin: 10px;
+   }
+}
+
+
 
 
 
@@ -993,7 +1284,8 @@ line-height: 90px;
     
   }
 
-  .text-ct{
+  .text-ct{ 
+    position: relative;
     
     justify-content: center;
     text-align: center;
