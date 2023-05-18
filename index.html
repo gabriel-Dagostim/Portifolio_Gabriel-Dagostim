@@ -40,8 +40,8 @@
                 <div class="checkbox_p">
                     <div class="toggle-switch">
                         <label class="switch-label">
-                          <input type="checkbox" class="checkbox">
-                          <span class="slider"></span>
+                          <input type="checkbox" class="checkbox" onclick="luz()">
+                          <span class="slider" onclick="luz2()"></span>
                         </label>
                       </div> 
                 </div> 
@@ -65,23 +65,23 @@
     <div id="minhaDiv" class="minhaDivclass">
 
         <div class="label-ajuste">
-        <label for="" class="label-01">SOBRE</label>
+        <label for="" class="label-01" id="sb00">SOBRE</label>
         </div>
 
         <div class="label-ajuste">
-        <label for="" class="label-02">HABILIDADES</label>
+        <label for="" class="label-02" id="sb00">HABILIDADES</label>
         </div>
 
         <div class="label-ajuste">
-        <label for="" class="label-03">PROJETOS</label>
+        <label for="" class="label-03" id="sb00">PROJETOS</label>
         </div>
 
         <div class="label-ajuste">
-        <label for="" class="label-04">CONTATO</label>
+        <label for="" class="label-04" id="sb00">CONTATO</label>
         </div>
 
         <div class="label-ajuste">
-        <label for="" class="label-05"></label>
+        <label for="" class="label-05" id="sb00"></label>
         </div>
 
 
@@ -93,7 +93,7 @@
 
   
    
-<body>
+<body id="body-bc">
 
 
     
@@ -213,7 +213,7 @@
 
         <section>
             <div class="project-01">
-              <label for="" class="projects" id="text-geral-00-red">Meus Projetos</label>
+              <label for="" class="projects" id="text-geral-00-red-r">Meus Projetos</label>
 
 
 
@@ -278,8 +278,8 @@
  </section>
     <section>
 
-        <div class="project-01" id="div-contato-geral">
-            <label for="" class="projects" id="contato-tx-geral-red">Contato</label>
+        
+            <label for="" class="projects-1" id="contato-tx-geral-red">Contato</label>
         </div>
 
             <div class="contato-geral" id="contato-geral-red">
@@ -306,7 +306,7 @@
 
 
 
-            </div>
+           
 
 
 
@@ -322,6 +322,7 @@
 
 
 <script>
+
 var display = document.getElementById("minhaDiv").style.display;
     document.getElementById("minhaDiv").style.display = 'none';   
 </script>

@@ -8,8 +8,7 @@
   margin-right: auto;
   vertical-align: baseline;
   justify-content: space-between;  
-  
-  
+ 
 }
 
 .trava{
@@ -128,16 +127,12 @@ body::-webkit-scrollbar-thumb {
     vertical-align: baseline;
     display: flex;
     position: absolute;
-    right: 6%;
-    top: 4%;
-    transform: translate(-6% -4%);
+    right: 5%;
+    top: 20px;
     
 }
 
-#section_one{
-
-    
-  background-color: #0c0b19;    
+#section_one{   
   display: flex;
   justify-content: space-between;
   align-items: center;    
@@ -147,10 +142,7 @@ body::-webkit-scrollbar-thumb {
   vertical-align: baseline;
 }
 
-.section_two{
-
-  
-background-color: #0c0b19;    
+.section_two{   
 display: flex;
 justify-content: space-between;
 align-items: center;    
@@ -856,7 +848,7 @@ vertical-align: baseline;
    }
 }
 
-@media (max-width: 270px)
+@media (max-width: 280px)
 {
   #minhaDiv
    {  
@@ -865,11 +857,20 @@ vertical-align: baseline;
    }
 }
 
-@media (max-width: 210px)
+@media (max-width: 230px)
 {
   #minhaDiv
    {  
     margin-top: 58%;
+   font-size: 12px;
+   }
+}
+
+@media (max-width: 200px)
+{
+  #minhaDiv
+   {  
+    margin-top: 64%;
    font-size: 12px;
    }
 }
@@ -1479,7 +1480,9 @@ line-height: 90px;
   border: #25f700 solid 2px;
 }
 
-.projects{
+
+
+.projects-1{
   color: white;
   font-size: 35px;  
   margin-top: 5%;   
@@ -1487,6 +1490,22 @@ line-height: 90px;
   justify-content: center;
   margin-bottom: 2%;
 }
+
+#text-geral-00-red{
+  color: white;
+}
+
+.projects{
+
+  font-size: 35px;  
+  margin-top: 5%;   
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+
+
 
 
 
