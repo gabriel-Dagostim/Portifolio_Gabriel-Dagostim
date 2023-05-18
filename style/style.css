@@ -230,6 +230,7 @@ vertical-align: baseline;
     vertical-align: baseline;
     justify-content: space-between;   
     display: flex;
+    cursor: pointer;
 }
 
 @media (max-width: 600px)
@@ -890,8 +891,8 @@ vertical-align: baseline;
 {
   #bt-00-red
    {
-    height: 30px;
-   width: 150px;
+    height: 23px;
+   width: 70px;
    border-radius: 5rem;
    font-size: 11px;
    margin: 10px;
@@ -899,14 +900,14 @@ vertical-align: baseline;
 }
 
 
-@media (min-width: 360px)
+@media (max-width: 560px)
 {
   #bt-00-red
    {
     height: 30px;
-   width: 150px;
+   width: 100px;
    border-radius: 5rem;
-   font-size: 11px;
+   font-size: 10px;
    margin: 10px;
    }
 }
@@ -1187,18 +1188,99 @@ line-height: 90px;
   justify-content: space-between;   
   }
 
-  .bt-01{
-   height: 40px;
-   width: 170px;
-   border-radius: 5rem;
-   
-  
-  }
-  .bt-02{
+
+
+  #bt-00-red{
+
     height: 40px;
-    width: 170px;
+    width: 150px;
     border-radius: 5rem;
-   }
+    cursor: pointer;  
+    font-weight: bold;    
+    text-transform: uppercase;
+    color: #0c0b19;
+    transition: all 1000ms;
+    font-size: 13px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #bt-00-red:hover {
+    color: #212121;
+    transform: scale(1.2);
+    outline: 2px solid #ffffff;
+  }
+  
+  
+  #bt-00-red::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #25f700;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  #bt-00-red:hover::before {
+    width: 250%;
+  }
+  
+
+
+
+
+
+
+
+   .bt-02 {
+
+    height: 150px;
+    width: 200px;
+    border-radius: 5rem;
+    cursor: pointer;  
+    font-weight: bold;    
+    text-transform: uppercase;
+    color: #0c0b19;
+    transition: all 1000ms;
+    font-size: 13px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bt-02:hover {
+    color: #212121;
+    transform: scale(1.2);
+    outline: 2px solid #ffffff;
+  }
+  
+  .bt-02::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #25f700;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  .bt-02:hover::before {
+    width: 250%;
+  }
+  
+
+
+
+
+
+
+
 
    .geral-box{
    
