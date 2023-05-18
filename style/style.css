@@ -38,7 +38,7 @@ body{
   position: relative;
 
   height: 100%;
-  width: 100%;
+ 
 
 }
 
@@ -62,6 +62,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     vertical-align: baseline; 
+    text-align: center;
+   
 
   
 
@@ -96,6 +98,9 @@ body::-webkit-scrollbar-thumb {
     margin-left: auto;
     margin-right: auto;
     vertical-align: baseline;
+    position: absolute;
+    
+
 }
 .menu{
   background-color: transparent;
@@ -121,6 +126,11 @@ body::-webkit-scrollbar-thumb {
     margin-left: auto;
     margin-right: auto;
     vertical-align: baseline;
+    display: flex;
+    position: absolute;
+    right: 6%;
+    top: 4%;
+    transform: translate(-6% -4%);
     
 }
 
@@ -184,6 +194,7 @@ vertical-align: baseline;
     border-radius: 40px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    left: 0px;
   }
   
   .checkbox:checked ~ .slider {
@@ -232,6 +243,48 @@ vertical-align: baseline;
     display: flex;
     cursor: pointer;
 }
+
+
+
+@media (max-width: 600px)
+{
+  .lab-port-red
+   {
+    font-size: 20px;
+   }
+}
+
+
+@media (max-width: 300px)
+{
+  .lab-port-red
+   {
+    font-size: 14px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  .checkbox_p
+   {
+    top: 13px;
+    position: absolute;
+    right: 35px;
+   }
+}
+
+@media (max-width: 600px)
+{
+  .menu_d
+   {
+    top: 13px;
+    left: 2px;
+   }
+}
+
+
+
+
 
 @media (max-width: 600px)
 {
@@ -889,28 +942,34 @@ vertical-align: baseline;
 
 @media (max-width: 360px)
 {
-  #bt-00-red
+ #bt-01-red
    {
-    height: 23px;
-   width: 70px;
-   border-radius: 5rem;
-   font-size: 11px;
-   margin: 10px;
-   }
-}
-
-
-@media (max-width: 560px)
-{
-  #bt-00-red
-   {
+    margin-top: -10px;
+    font-size: 10px;
+    display: flex;
     height: 30px;
-   width: 100px;
-   border-radius: 5rem;
-   font-size: 10px;
-   margin: 10px;
+    width: 110px 
    }
 }
+@media (max-width: 360px)
+{
+ #bt-00-red
+   {
+    margin-top: -10px;
+    padding: 5px;   
+    font-size: 5x;
+    display: flex;
+    height: 30px;
+    width: 110px 
+   }
+}
+
+
+
+
+
+
+
 
 
 
@@ -1036,11 +1095,16 @@ vertical-align: baseline;
 
 .burger {
   position: relative;
-  width: 40px;
+  display: flex;
+  width: 35px;
   height: 30px;
   background: transparent;
   cursor: pointer;
   display: block;
+ 
+  
+ 
+
 }
 
 .burger input {
@@ -1080,7 +1144,7 @@ vertical-align: baseline;
 
 .burger input:checked ~ span:nth-of-type(1) {
   transform: rotate(45deg);
-  top: 0px;
+  top: 2px;
   left: 5px;
 }
 
@@ -1188,13 +1252,14 @@ line-height: 90px;
   justify-content: space-between;   
   }
 
-
-
-  #bt-00-red{
-
+  .bt-01{
     height: 40px;
     width: 150px;
     border-radius: 5rem;
+  }
+
+  #bt-00-red{
+
     cursor: pointer;  
     font-weight: bold;    
     text-transform: uppercase;
@@ -1203,12 +1268,14 @@ line-height: 90px;
     font-size: 13px;
     position: relative;
     overflow: hidden;
+    margin-top: 10px;
   }
   
   #bt-00-red:hover {
     color: #212121;
     transform: scale(1.2);
     outline: 2px solid #ffffff;
+    font-size: 13px;
   }
   
   
@@ -1230,34 +1297,36 @@ line-height: 90px;
   }
   
 
-
-
-
-
-
-
-   .bt-02 {
-
-    height: 150px;
-    width: 200px;
+  
+  .bt-02{
+    height: 40px;
+    width: 150px;
     border-radius: 5rem;
+    font-size: 13px;
+  }
+
+
+  #bt-01-red{
+
     cursor: pointer;  
     font-weight: bold;    
     text-transform: uppercase;
     color: #0c0b19;
     transition: all 1000ms;
-    font-size: 13px;
     position: relative;
     overflow: hidden;
+    margin-top: 10px;
   }
   
-  .bt-02:hover {
+  #bt-01-red:hover {
     color: #212121;
     transform: scale(1.2);
     outline: 2px solid #ffffff;
+    
   }
   
-  .bt-02::before {
+  
+  #bt-01-red::before {
     content: "";
     position: absolute;
     left: -50px;
@@ -1270,9 +1339,13 @@ line-height: 90px;
     transition: width 1000ms;
   }
   
-  .bt-02:hover::before {
+  #bt-01-red:hover::before {
     width: 250%;
   }
+  
+
+
+
   
 
 
