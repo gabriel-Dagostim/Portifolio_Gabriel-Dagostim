@@ -802,7 +802,7 @@ vertical-align: baseline;
    }
 }
 
-@media (max-width: 800px)
+@media (max-width: 820px)
 {
   #minhaDiv
    {  
@@ -856,7 +856,7 @@ vertical-align: baseline;
    }
 }
 
-@media (max-width: 250px)
+@media (max-width: 270px)
 {
   #minhaDiv
    {  
@@ -865,7 +865,7 @@ vertical-align: baseline;
    }
 }
 
-@media (max-width: 200px)
+@media (max-width: 210px)
 {
   #minhaDiv
    {  
@@ -960,7 +960,8 @@ vertical-align: baseline;
     font-size: 5x;
     display: flex;
     height: 30px;
-    width: 110px 
+    width: 110px;
+ 
    }
 }
 
@@ -1266,7 +1267,7 @@ line-height: 90px;
     color: #0c0b19;
     transition: all 1000ms;
     font-size: 13px;
-    position: relative;
+    
     overflow: hidden;
     margin-top: 10px;
   }
@@ -1313,7 +1314,7 @@ line-height: 90px;
     text-transform: uppercase;
     color: #0c0b19;
     transition: all 1000ms;
-    position: relative;
+    
     overflow: hidden;
     margin-top: 10px;
   }
