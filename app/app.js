@@ -54,18 +54,20 @@ function luz(){
     document.getElementById('text-geral-00-red').style.color = "black"
     document.getElementById('text-red-02').style.color = "black"
     document.getElementById('minhaDiv').style.color = "black"   
-    }
+    }    
+}
 
-
-    
-
-
-
-
-    
-   
-
-    
+function linkedin(){
+    window. location. href = "https://www.linkedin.com/in/gabriel-dagostim/"
+}
+function git(){
+    window. location. href = "https://github.com/gabriel-Dagostim"
+}
+function whatsapp(){
+    window. location. href = "https://wa.me/5545984127626/?text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20pois%20vi%20seu%20portf%C3%B3lio%20Front-End."
+}
+function insta(){
+    window. location. href = "https://www.instagram.com/gabriel_dagostim/"
 }
 
 
