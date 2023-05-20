@@ -1468,6 +1468,7 @@ line-height: 90px;
 .line-01{
   margin-top: 120px;
   display: flex;
+  background-color: #25f700;
 
   border: #25f700 solid 3px;
 }
@@ -1476,7 +1477,7 @@ line-height: 90px;
   margin-top: 15px;
   display: flex;
   margin-bottom: 200px;
- 
+  background-color: #25f700;
   border: #25f700 solid 2px;
 }
 
